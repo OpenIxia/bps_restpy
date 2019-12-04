@@ -1,8 +1,8 @@
 ## The BreakingPoint RESTv2 API Python Wrapper 
-[![pypi](https://img.shields.io/pypi/v/breakingpoint-restpy.svg)](https://pypi.org/project/breakingpoint-restpy)
-[![python](https://img.shields.io/pypi/pyversions/breakingpoint-restpy.svg)](https://pypi.python.org/pypi/breakingpoint-restpy)
+[![pypi](https://img.shields.io/pypi/v/bps-restpy.svg)](https://pypi.org/project/bps-restpy)
+[![python](https://img.shields.io/pypi/pyversions/bps-restpy.svg)](https://pypi.python.org/pypi/bps-restpy)
 [![license](https://img.shields.io/badge/license-MIT-green.svg)](https://en.wikipedia.org/wiki/MIT_License)
-[![downloads](https://pepy.tech/badge/breakingpoint-restpy)](https://pepy.tech/project/breakingpoint-restpy)
+[![downloads](https://pepy.tech/badge/bps-restpy)](https://pepy.tech/project/bps-restpy)
 
 ## BreakingPoint detail
 Network testing with  [BreakingPoint®](https://www.ixiacom.com/products/network-security-testing-breakingpoint). By simulating real-world legitimate traffic, distributed denial of service (DDoS), exploits, malware, and fuzzing, BreakingPoint validates an organization’s security infrastructure, reduces the risk of network degradation by almost 80%, and increases attack readiness by nearly 70%. And with our new TrafficREWIND solution, you'll get even more realistic and high-fidelity validation by adding production network insight into BreakingPoint test traffic configuration
