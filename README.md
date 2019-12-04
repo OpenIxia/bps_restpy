@@ -4,6 +4,10 @@
 [![license](https://img.shields.io/badge/license-MIT-green.svg)](https://en.wikipedia.org/wiki/MIT_License)
 [![downloads](https://pepy.tech/badge/breakingpoint-restpy)](https://pepy.tech/project/breakingpoint-restpy)
 
+## BreakingPoint detail
+Network testing with  [BreakingPoint®](https://www.ixiacom.com/products/network-security-testing-breakingpoint). By simulating real-world legitimate traffic, distributed denial of service (DDoS), exploits, malware, and fuzzing, BreakingPoint validates an organization’s security infrastructure, reduces the risk of network degradation by almost 80%, and increases attack readiness by nearly 70%. And with our new TrafficREWIND solution, you'll get even more realistic and high-fidelity validation by adding production network insight into BreakingPoint test traffic configuration
+More details:
+
 ## Install the package
 ```
 pip install --upgrade breakingpoint-restpy
@@ -127,7 +131,7 @@ Documentation is available using the following methods:
 Visit the [OpenIxia breakingpoint-restpy sample site maintained by solution architects](https://github.com/OpenIxia/BreakingPoint) for in depth end-to-end samples that demonstrate the following:
 * building a configuration
   * from scratch
-  * from an existing IxNetwork configuration
+  * from an existing BreakingPoint configuration
 * running the configuration
   * connecting ports to hardware
   * starting protocols
