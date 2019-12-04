@@ -10,7 +10,7 @@ More details:
 
 ## Install the package
 ```
-pip install --upgrade breakingpoint-restpy
+pip install --upgrade bps-restpy
 ```
 
 ## Start scripting
