@@ -1,18 +1,3 @@
-## The IxNetwork Python Client 
-[![pypi](https://img.shields.io/pypi/v/breakingpoint-restpy.svg)](https://pypi.org/project/breakingpoint-restpy)
-[![python](https://img.shields.io/pypi/pyversions/breakingpoint-restpy.svg)](https://pypi.python.org/pypi/breakingpoint-restpy)
-[![license](https://img.shields.io/badge/license-MIT-green.svg)](https://en.wikipedia.org/wiki/MIT_License)
-[![downloads](https://pepy.tech/badge/breakingpoint-restpy)](https://pepy.tech/project/breakingpoint-restpy)
-
-## Install the package
-```
-pip install --upgrade breakingpoint-restpy
-```
-
-## Start scripting
-```python
-"""This script demonstrates how to get started with bps_restpy scripting.
-
 # Title:  Python Script Sample To Run a Canned Test.
 # Actions:
 #   1. Login to BPS box
@@ -29,12 +14,12 @@ pip install --upgrade breakingpoint-restpy
 
 ########################################
 import time, sys, os
-# Import corresponding BPS RESTv2 python2.7/ 3 library from outside the folder with samples.
+# Import corresponding BPSv2 python2.7/ 3 library from outside the folder with samples.
 sys.path.insert(1, os.path.dirname(os.getcwd()))
 if sys.version_info[0] >= 3:
-    from bps_restpy.bps_restpy import BPS, pp
+    from bps_restpy.bps_restpy3 import BPS, pp
 else:
-	from bps_restpy.bps_restpy3 import BPS, pp
+	from bps_restpy.bps_restpy import BPS, pp
 
 ########################################
 
@@ -105,35 +90,3 @@ for p in port_list:
     bps.topology.unreserve([{'slot': slot_number, 'port': p, 'group': 2}])
 
 bps.logout()
-```
-
-## Documentation
-Documentation is available using the following methods:
-* [Online web based documentation and samples](https://github.com/OpenIxia/BreakingPoint)
-* On your BreakingPoint System RestApi found near the BreakingPoint App  
-* Documentation available in the online doc browser is also inlined in each class, property and method and can be viewed using the python help command
-  ```python
-  from bps_restpy.testplatform.testplatform import TestPlatform
-  
-  #login to your Breaking Point System
-  help(BPS)
-  bps = BPS('your_bps_IP_or_FQDN', 'admin', 'admin')
-  
-  help(bps.testmodel.importModel)
-  
-  ```
-
-## Additional Samples
-Visit the [OpenIxia breakingpoint-restpy sample site maintained by solution architects](https://github.com/OpenIxia/BreakingPoint) for in depth end-to-end samples that demonstrate the following:
-* building a configuration
-  * from scratch
-  * from an existing IxNetwork configuration
-* running the configuration
-  * connecting ports to hardware
-  * starting protocols
-  * starting traffic
-* getting statistics
-  * port stats
-  * traffic stats
-
-
