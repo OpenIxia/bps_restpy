@@ -1,4 +1,4 @@
-## The IxNetwork Python Client 
+## The BreakingPoint RESTv2 API Python Wrapper 
 [![pypi](https://img.shields.io/pypi/v/breakingpoint-restpy.svg)](https://pypi.org/project/breakingpoint-restpy)
 [![python](https://img.shields.io/pypi/pyversions/breakingpoint-restpy.svg)](https://pypi.python.org/pypi/breakingpoint-restpy)
 [![license](https://img.shields.io/badge/license-MIT-green.svg)](https://en.wikipedia.org/wiki/MIT_License)
