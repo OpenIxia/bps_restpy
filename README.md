@@ -33,8 +33,7 @@ pip install --upgrade bps-restpy
 
 ########################################
 import time, sys, os
-# Import corresponding BPS RESTv2 python2.7/ 3 library from outside the folder with samples.
-sys.path.insert(1, os.path.dirname(os.getcwd()))
+# Import corresponding BPS RESTv2 Wrapper Library
 
 from bps_restpy.bps import BPS, pp
 
