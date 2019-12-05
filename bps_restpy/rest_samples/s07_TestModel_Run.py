@@ -16,13 +16,8 @@
 
 import time, sys, os
 # Import corresponding BPSv2 python2.7/ 3 library from outside the folder with samples.
-sys.path.insert(1, os.path.dirname(os.getcwd()))
-if sys.version_info[0] >= 3:
-    from bps_restpy.bps_restpy3 import BPS, pp
-else:
-    from bps_restpy.bps_restpy import BPS, pp
-
-
+sys.path.insert(0,os.path.abspath(__file__+"/../.."))
+from bps_restpy.bps import BPS,pp
 
 ########################################
 # Demo script global variables
