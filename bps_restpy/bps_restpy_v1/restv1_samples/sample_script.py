@@ -1,6 +1,7 @@
 import os,sys,time
 
 libpath = os.path.abspath(__file__+"/../../..")
+libpath = os.path.abspath(__file__+"/../../../..")
 sys.path.insert(0,libpath)
 
 from bps_restpy_v1.bpsRest import BPS
