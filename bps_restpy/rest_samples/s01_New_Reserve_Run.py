@@ -89,3 +89,4 @@ for p in port_list:
     bps.topology.unreserve([{'slot': slot_number, 'port': p, 'group': 2}])
 
 bps.logout()
+

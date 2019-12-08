@@ -29,6 +29,7 @@ setup(
     ],
     keywords='bps breakingpoint security network test tool ixia keysight automation',
     packages=['bps_restpy'],
+    exclude=["bps_restpy_v1/sample_*"],
     include_package_data=True,
     python_requires='>=2.7, <4',
     install_requires=['requests']

@@ -4,3 +4,4 @@ include RELEASENOTES.md
 include setup.py
 include version.txt
 recursive-include bps_restpy *.py
+recursive-include bps_restpy *.bpt

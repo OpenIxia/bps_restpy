@@ -15,9 +15,13 @@
 
 
 import time, sys, os
-# Import corresponding BPSv2 python2.7/ 3 library from outside the folder with samples.
-sys.path.insert(0,os.path.abspath(__file__+"/../.."))
+# Add bps_restpy libpath *required if the library is not installed
+libpath = os.path.abspath(__file__+"/../../..")
+sys.path.insert(0,libpath)
+
 from bps_restpy.bps import BPS,pp
+
+
 
 ########################################
 # Demo script global variables
@@ -130,5 +134,6 @@ for p in port_list:
 z########################################
 print "Session logout"
 bps.logout()
+
 
 

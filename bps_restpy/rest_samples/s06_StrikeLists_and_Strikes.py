@@ -25,6 +25,7 @@ sys.path.insert(0,libpath)
 
 from bps_restpy.bps import BPS,pp
 
+
 ########################################
 # Demo script global variables
 new_strikeList_name = "CreatedStrikeList"

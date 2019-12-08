@@ -24,6 +24,7 @@ sys.path.insert(0,libpath)
 
 from bps_restpy.bps import BPS,pp
 
+
 ########################################
 # Demo script global variables
 bpt_filename_to_import = "Sample_AppSim_template.bpt"
@@ -164,4 +165,5 @@ for p in port_list:
 ########################################
 print("Session logout")
 bps.logout()
+
 

@@ -33,7 +33,8 @@ pip install --upgrade bps-restpy
 
 ########################################
 import time, sys, os
-# Import corresponding BPS RESTv2 Wrapper Library
+# Import corresponding BPS RESTv2 python2.7/ 3 library from outside the folder with samples.
+sys.path.insert(1, os.path.dirname(os.getcwd()))
 
 from bps_restpy.bps import BPS, pp
 
@@ -107,14 +108,14 @@ for p in port_list:
 
 bps.logout()
 ```
-
+wew
 ## Documentation
 Documentation is available using the following methods:
 * [Online web based documentation and samples](https://github.com/OpenIxia/BreakingPoint)
 * On your BreakingPoint System RestApi found near the BreakingPoint App  
 * Documentation available in the online doc browser is also inlined in each class, property and method and can be viewed using the python help command
   ```python
-  from bps_restpy.testplatform.testplatform import TestPlatform
+  from bps_restpy.bps import BPS, pp
   
   #login to your Breaking Point System
   help(BPS)

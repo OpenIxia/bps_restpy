@@ -21,6 +21,7 @@ sys.path.insert(0,libpath)
 
 from bps_restpy.bps import BPS,pp
 
+
 ########################################
 # Demo script global variables
 new_testmodel_name  = 's05_testModel'
@@ -133,3 +134,4 @@ for p in port_list:
 ########################################
 print("Session logout")
 bps.logout()
+
